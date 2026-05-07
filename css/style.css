@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(250, 255, 254);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+.toplink{
+    background-color: rgb(51, 51, 50);
+    overflow: hidden;
+}
+.toplink a{
+    color: #ffffff;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.toplink a:hover{
+    background-color: #ffffff;
+    color: rgb(51, 51, 50);
+    text-decoration: none;
+}
+.banner{
+    background-color: #5f5e5e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.row:after{
+    display: flex;
+    content: "";
+    clear: both;
+}
+.left_side_bar{
+    float: left;
+    width: 15%;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+.content{
+    float: left;
+    width: 70%;
+    background-color: #ebebeb;
+    padding: 20px;
+    text-align: center;
+    border-left:#5f5e5e 1px dashed;
+    border-right:#5f5e5e 1px dashed;
+}
+.right_side_bar{
+    float: left;
+    width: 15%;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+.footer{
+    background-color: rgb(51, 51, 50);
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    /* text-transform: none; */
+    text-transform: capitalize;
+}
+h2{
+    text-decoration: none;
+    color: #373737;
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.team_img{
+    overflow: hidden;
+    text-align: center;
+}
+.team_img img{
+    width: 180px;
+    height: 240px;
+    padding: 5px;
+    border-radius: 20%;
+    /* object-fit: cover; */
+}
+.team_member{
+    text-align: center;
+    font-size: small;
+    color: #880f0f;
+    font-style: italic;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Table Design */
+table{
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px #373737 solid;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+table th{
+    border: 1px #373737 solid;
+    padding: 8px;
+    text-align: left;
+    background-color: #5f5e5e;
+    color: #ffffff;
+}
+table td{
+    border: 1px #373737 solid;
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #dbdbdb;
+}
+tbody tr:hover{
+    background-color: #b3e7ff;
+}
