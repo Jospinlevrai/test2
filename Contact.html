@@ -24,17 +24,37 @@
     <h1>Contact us</h1>
     <p>This is our contact page</p>
     <form action="">
-        <input type="text" name="" placeholder="enter your name" required><br>
+        <label for="Full name">Full name: </label><br>
+        <input type="text" name="" id="Full name" placeholder="enter your name" required><br>
+
+        <label for="Email">email address: </label><br>
+         <input type="email" id="Email" name="" placeholder="enter your Email" required><br>
+
+         <label for="Phone number">Phone number: </label><br>
+        <input type="number" id="Phone number" name="" placeholder="enter your number" required><br>
+
+        <label for="password">Enter your password: </label><br>
+        <input type="password" id="password" name="" placeholder="enter your password" required><br>
+
+        <label for="Date">Date: </label><br>
+        <input type="date" id="Date" name="" placeholder="Date" required><br>
+
+        <label for="Time">Time: </label><br>
+        <input type="time" id="Time" name="" placeholder="Time" required><br>
+
+        <label for="Color">Choose a Color: </label><br>
+        <input type="color" id="Color" name="" placeholder="color" required><br>
+
+        <label for="Range">Chooose your range: </label><br>
+        <input type="range" id="Range" name="" placeholder="your range" required><br>
+
+        <label for="website">Your Website url: </label><br>
+        <input type="url" id="website" name="" placeholder="What is the website" required><br>
+
+        <label for="search">Search: </label><br>
+        <input type="search" id="search" name="" placeholder="looking for?" required><br>
+
         
-         <input type="email" name="" placeholder="enter your Email" required><br>
-        <input type="number" name="" placeholder="enter your number" required><br>
-        <input type="password" name="" placeholder="enter your password" required><br>
-        <input type="date" name="" placeholder="Date" required><br>
-        <input type="time" name="" placeholder="Time" required><br>
-        <input type="color" name="" placeholder="color" required><br>
-        <input type="range" name="" placeholder="your range" required><br>
-        <input type="url" name="" placeholder="What is the website" required><br>
-        <input type="search" name="" placeholder="looking for?" required><br>
         <input type="radio" name="Rating" placeholder="Time" required>1<br>
         <input type="radio" name="Rating" placeholder="Time" required>2<br>
         <input type="radio" name="Rating" placeholder="Time" required>3<br>
@@ -45,12 +65,16 @@
         <input type="checkbox" name="Subscribe" value="yes" required>Subscribe to BBIT newsletter<br>
         <input type="checkbox" name="Subscribe" value="yes" required>Subscribe to BICS newsletter<br>
     <select name="" id="">
-        <option value="">Select your Country</option>
+        
+        <option value="" id="Select your country">Select your Country</option>
         <option value="kenya">kenya</option>
         <option value="Uganda">Uganda</option>
         <option value="Tanzania">Tanzania</option>
         <option value="Congo">Congo</option>
-    </select>
+    </select><br>
+  <label for="Message">Message</label><br>
+    <textarea name="" id="Message" cols="30" rows="5"
+    placeholder="Enter your message"></textarea>
 
 
         <input type="submit" value="Submit details" required><br>

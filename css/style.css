@@ -128,3 +128,22 @@ tr:nth-child(even){
 tbody tr:hover{
     background-color: #b3e7ff;
 }
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+button {
+     width: 200px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #e42929;
+
+
+}
