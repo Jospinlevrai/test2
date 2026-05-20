@@ -25,6 +25,9 @@ body{
     color: rgb(51, 51, 50);
     text-decoration: none;
 }
+.toplink-right{
+    float: right;
+}
 .banner{
     background-color: #5f5e5e;
     color: #ffffff;
@@ -36,24 +39,16 @@ body{
     content: "";
     clear: both;
 }
-.left_side_bar{
-    float: left;
-    width: 15%;
-    background-color: #ebebeb;
-    padding: 20px;
-}
 .content{
     float: left;
     width: 70%;
-    background-color: #ebebeb;
+
     padding: 20px;
-    text-align: center;
-    border-left:#5f5e5e 1px dashed;
-    border-right:#5f5e5e 1px dashed;
+    text-align: left;
 }
 .right_side_bar{
     float: left;
-    width: 15%;
+    width: 30%;
     background-color: #ebebeb;
     padding: 20px;
 }
@@ -128,22 +123,61 @@ tr:nth-child(even){
 tbody tr:hover{
     background-color: #b3e7ff;
 }
-form {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    text-align: left;
+
+.contactForm input[type="text"], .contactForm input[type="email"], .contactForm input[type="tel"], .contactForm select{
+    width: 70%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 1.6em;
 }
-button {
-     width: 200px;
-    margin: 30px auto;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #e42929;
 
+.contactForm textarea{
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 1.6em;
+    margin: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.contactForm input[type="submit"]{
+    background-color: #2853D4;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.authForm input[type="text"], .authForm input[type="email"], .authForm input[type="tel"], .authForm input[type="password"]{
+    width: 70%;
+    padding: 12px 20px;
+    border: 0px solid #ccc;
+    border-bottom: 2px solid #0b51d3;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 1.6em;
+}
+
+.authForm input[type="submit"]{
+    background-color: #2853D4;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+.authForm label{
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }

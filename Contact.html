@@ -8,10 +8,13 @@
      <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-    <div class="toplink">
+      <div class="toplink">    
         <a href="Home.html">Home</a>
-        <a href="About_us.html">about us</a>
-        <a href="Contact.html">Contact us</a>
+        <a href="About_us.html">About</a> 
+        <a href="projects.html">Projects</a>
+        <a href="product.html">Products</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
     </div>
     <div class="banner">
         <H1>Feedback</H1>
@@ -28,10 +31,20 @@
         <input type="text" name="" id="Full name" placeholder="enter your name" required><br>
 
         <label for="Email">email address: </label><br>
-         <input type="email" id="Email" name="" placeholder="enter your Email" required><br>
+         <input type="email" id="Email" name="" maxlength="60" placeholder="enter your Email" required><br>
 
-         <label for="Phone number">Phone number: </label><br>
-        <input type="number" id="Phone number" name="" placeholder="enter your number" required><br>
+        <div class="phone-container">
+    <select id="country-code" name="country-code">
+        <option value="+1">🇺🇸 +1 </option>
+        <option value="+44">🇬🇧 +44 </option>
+        <option value="+33">🇫🇷 +33 </option>
+        <option value="+254">🇰🇪 +254 </option>
+        <option value="+243">🇨🇩 +243 </option>
+        <option value="+250">🇷🇼 +250 </option>
+    </select><br>
+        <label for="country-code">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" maxlength="13" placeholder="Enter phone number"><br>
+</div>
 
         <label for="password">Enter your password: </label><br>
         <input type="password" id="password" name="" placeholder="enter your password" required><br>
@@ -72,7 +85,7 @@
         <option value="Tanzania">Tanzania</option>
         <option value="Congo">Congo</option>
     </select><br>
-  <label for="Message">Message</label><br>
+        <label for="Message">Message</label><br>
     <textarea name="" id="Message" cols="30" rows="5"
     placeholder="Enter your message"></textarea>
 
@@ -97,6 +110,9 @@
                 
     </dl>
         </div>
+       
+
+
 
         <div class="right_Side_bar">
                 <h3>Right Side bar</h3>
