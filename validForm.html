@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Registration Form -->
+<form action="#" method="post" id="registrationForm" class="registration-form">
+    <h2>Registration Form</h2>
+    <div class="field">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" maxlength="60" ><br>
+        <p id="nameError" class="error"></p>
+    </div>
+    <div class="field">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" maxlength="60" ><br>
+        <p id="emailError" class="error"></p>
+    </div>
+    <div class="field">
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" maxlength="13"><br>
+        <p id="phoneError" class="error"></p>
+    </div>
+    <div class="field">
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" value="123456" required><br>
+        <p id="passwordError" class="error"></p>
+    </div>
+    <div class="field">
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" value="123456" required><br>
+        <p id="confirmPasswordError" class="error"></p>
+    </div>
+    <input type="submit" value="Register">
+    <p id="validation_result"></p>
+</form>
+
+<script src="js/script.js"></script>
+<script>
+    // calling the form validation function from the external JavaScript file
+    FormValidation('registrationForm');
+</script>
+
+</body>
+</html>

@@ -181,3 +181,30 @@ tbody tr:hover{
     font-size: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+        .registration-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            font-size: 1.6em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .error {
+            color: red;
+            margin: 0;
+        }
+        .success {
+            color: green;
+            margin: 0;
+        }
+        .field {
+            margin-bottom: 12px;
+        }
